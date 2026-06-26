@@ -1,0 +1,51 @@
+Why NumPy?
+storing large amount of data
+using python list will consume large area and behave slower
+- data to object
+- storage generated
+- object metadata
+- each element have separate object
+
+*** NumPy stores differently ***
+import numpy as np
+arr = np.array([])
+- Continuous block of memory
+- Fast
+- Less memory
+- Vectorized operations
+------------------------------------------------------------------
+
+____LIST v/s NumPy____
+## EXAMPLE 1
+# LIST
+a = [1,2,3,4]
+print(a * 2)
+
+output: [1,2,3,1,2,3]
+---- It doubles the array
+
+# NumPy
+import numpy as np
+a = np.array([1,2,3,4])
+print(a * 2)
+
+output: [2,4,6,8]
+---- This is called Vectorized Computation
+
+## EXAMPLE 2
+# LIST
+a = [1,2,3]
+b = [4,5,6]
+print(a + b)
+
+output: [1,2,3,4,5,6]
+---- Concat
+
+# NumPy
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+print(a + b)
+
+output: [5,7,9]
+---- Addition element wise
