@@ -80,5 +80,16 @@ ____INTRO TO NumPy____
 - arr.linspace()
 ----------------------------------
 
-____INDEXONG & SLICING____
+____INDEXING & SLICING____
 ## ACCESSING ELEMENTS
+- First element : arr[0] 
+- Last element : arr[-1]
+- Slice : arr[1:4]
+- Reverse : arr[::-1]
+- 2D : arr[1,2]
+- Row : arr[1]
+- Column : arr[:,-1]
+- Block : arr[1:3,0:2]
+- Boolean filter : arr[arr > 20]
+- Fancy indexing : arr[[0,2,4]]
+----------------------------------
