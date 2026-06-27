@@ -21,7 +21,7 @@ This repository is part of my **AI Engineer Roadmap**, where I build strong foun
 ### ✅ Phase 1: NumPy Fundamentals
 
 - [x] Day 1 – Introduction & Arrays
-- [ ] Day 2 – Indexing, Slicing & Reshaping
+- [x] Day 2 – Indexing, Slicing & Reshaping
 - [ ] Day 3 – Mathematical Operations
 - [ ] Day 4 – Broadcasting
 - [ ] Day 5 – Aggregation Functions
@@ -75,7 +75,7 @@ Libraries such as **Pandas**, **Scikit-learn**, **TensorFlow**, **PyTorch**, **O
 
 ## 🎯 Progress
 
-**Completed:** `1 / 15 Days`
+**Completed:** `2 / 15 Days`
 ## 💡 Learning Approach
 
 For every topic, I follow:
