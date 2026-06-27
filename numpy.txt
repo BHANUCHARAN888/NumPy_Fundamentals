@@ -49,3 +49,36 @@ print(a + b)
 
 output: [5,7,9]
 ---- Addition element wise
+----------------------------------------------------------------------
+
+____INTRO TO NumPy____
+## DIMENSIONS
+- arr.ndim
+
+## SHAPE
+- arr.shape
+
+## DATATYPE
+- arr.dtype
+
+## ZEROS()
+- arr.zeros()
+
+## ONES()
+- arr.ones()
+
+## FULL()
+- arr.full()
+
+## EYE()
+- arr.eye()
+
+## ARANGE()
+- arr.arange()
+
+## LINSPACE()
+- arr.linspace()
+----------------------------------
+
+____INDEXONG & SLICING____
+## ACCESSING ELEMENTS
