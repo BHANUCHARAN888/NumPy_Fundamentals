@@ -93,3 +93,35 @@ ____INDEXING & SLICING____
 - Boolean filter : arr[arr > 20]
 - Fancy indexing : arr[[0,2,4]]
 ----------------------------------
+
+___Array Operations___
+## Arithmetic operations
+- arr1 +/-/*/% arr2
+
+## Comparison operation
+- >,<,>=,<=,==,!=
+
+## Universal functions
+- np.add()
+- np.subtract()
+- np.multiply()
+- np.divide()
+- np.square()
+- np.sqrt()
+- np.sin()
+- np.cos()
+- np.exp()
+- np.log()
+- np.pi
+
+## Aggregation functions 1D
+- np.sum()
+- np.mean()
+- np.max()
+- np.min()
+- np.std()
+- np.var()
+## Aggregation functions 2D
+- np.sum(axis=0) column wise
+- np.sum(axis=1) row wise
+------------------------------------
