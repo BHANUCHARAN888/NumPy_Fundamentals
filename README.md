@@ -75,7 +75,7 @@ Libraries such as **Pandas**, **Scikit-learn**, **TensorFlow**, **PyTorch**, **O
 
 ## 🎯 Progress
 
-**Completed:** `2 / 15 Days`
+**Completed:** `4 / 15 Days`
 ## 💡 Learning Approach
 
 For every topic, I follow:
