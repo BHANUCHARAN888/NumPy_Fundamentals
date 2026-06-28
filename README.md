@@ -22,8 +22,8 @@ This repository is part of my **AI Engineer Roadmap**, where I build strong foun
 
 - [x] Day 1 – Introduction & Arrays
 - [x] Day 2 – Indexing, Slicing & Reshaping
-- [ ] Day 3 – Mathematical Operations
-- [ ] Day 4 – Broadcasting
+- [x] Day 3 – Mathematical Operations
+- [x] Day 4 – Broadcasting
 - [ ] Day 5 – Aggregation Functions
 - [ ] Day 6 – Axis Operations
 - [ ] Day 7 – Boolean Masking & Filtering
