@@ -125,3 +125,34 @@ ___Array Operations___
 - np.sum(axis=0) column wise
 - np.sum(axis=1) row wise
 ------------------------------------
+
+___Reshape & Broadcasting___
+## Reshape
+- arr.reshape(row,column)
+- arr.reshape(-1,column)
+- arr.reshape(row,-1)
+
+## Flatten vs Ravel
+# Function	  Returns
+- flatten()	  Copy
+- ravel()	  View (if possible)
+
+## Transpose
+- arr.T 
+- arr.transpose()
+
+## Broadcasting
+Two shapes are compatible if:
+- They are equal.
+- One of them is 1.
+# Examples:
+
+Shape A 	Shape B	  Works?
+ (3,)	     (3,)	   ✅
+ (2,3)	     (3,)	   ✅
+ (4,3)	     (3,)	   ✅
+ (2,3)	     (2,1)	   ✅
+ (2,3)	     (2,2)	   ❌
+
+Always compare dimensions from right to left.
+-----------------------------------------------
