@@ -156,3 +156,16 @@ Shape A 	Shape B	  Works?
 
 Always compare dimensions from right to left.
 -----------------------------------------------
+
+___Stacking & Splitting___
+
+Function	             Purpose
+hstack()	             Join horizontally
+vstack()	             Join vertically
+column_stack()           Combine 1D arrays as columns
+concatenate()	         Flexible joining
+split()	                 Equal splitting
+array_split()	         Unequal splitting
+hsplit()	             Split columns
+vsplit()	             Split rows
+----------------------------------------------------
