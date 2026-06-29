@@ -69,3 +69,15 @@ ravel[0] = 88
 # print("Ravel: ",ravel)
 # print("Original:",arr)
 # Original changed
+#------------------------------------------------------------
+
+#### MINI CHALLENGE ####
+marks = np.array([78,65,89,91,56,72,84,95,61,77])
+# Average
+average = marks.mean()
+# print("Class Average:", average)
+# Normalize Marks
+normalize = marks - average
+# print("Normalized marks:", normalize)
+# Mean of normalize marks 
+# print("Mean of Normalize Marks:",normalize.mean())
