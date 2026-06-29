@@ -20,21 +20,16 @@ This repository is part of my **AI Engineer Roadmap**, where I build strong foun
 
 ### ✅ Phase 1: NumPy Fundamentals
 
-- [x] Day 1 – Introduction & Arrays
-- [x] Day 2 – Indexing, Slicing & Reshaping
-- [x] Day 3 – Mathematical Operations
-- [x] Day 4 – Broadcasting
-- [ ] Day 5 – Aggregation Functions
-- [ ] Day 6 – Axis Operations
-- [ ] Day 7 – Boolean Masking & Filtering
-- [ ] Day 8 – Fancy Indexing
-- [ ] Day 9 – Array Manipulation
-- [ ] Day 10 – Stacking & Splitting
-- [ ] Day 11 – Random Module
-- [ ] Day 12 – Linear Algebra Basics
-- [ ] Day 13 – Statistics with NumPy
-- [ ] Day 14 – Performance & Vectorization
-- [ ] Day 15 – Mini Project & Revision
+- [x] Day 1 – Numpy Fundamentals
+- [x] Day 2 – Indexing, Slicing
+- [x] Day 3 – Array Operations
+- [x] Day 4 – Reshape & Broadcasting
+- [x] Day 5 – Stacking & Splitting
+- [ ] Day 6 – Random Module
+- [ ] Day 7 – Linear Algebra Basics
+- [ ] Day 8 – Statistics with NumPy
+- [ ] Day 9 – Performance & Vectorization
+- [ ] Day 10 – Mini Project & Revision
 
 ---
 
@@ -75,7 +70,7 @@ Libraries such as **Pandas**, **Scikit-learn**, **TensorFlow**, **PyTorch**, **O
 
 ## 🎯 Progress
 
-**Completed:** `4 / 15 Days`
+**Completed:** `5 / 10 Days`
 ## 💡 Learning Approach
 
 For every topic, I follow:
