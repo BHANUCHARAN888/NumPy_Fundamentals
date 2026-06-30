@@ -169,3 +169,16 @@ array_split()	         Unequal splitting
 hsplit()	             Split columns
 vsplit()	             Split rows
 ----------------------------------------------------
+
+___NumPy Random Module___
+
+Function	             Purpose
+randint()	             Random integers
+rand()	                 Random floats (0–1)
+randn()              	 Standard normal values
+seed()	                 Reproducible randomness
+shuffle()	             Shuffle an array in place
+choice()	             Random sampling
+uniform()	             Uniform distribution
+normal()	             Normal distribution
+-----------------------------------------------------
