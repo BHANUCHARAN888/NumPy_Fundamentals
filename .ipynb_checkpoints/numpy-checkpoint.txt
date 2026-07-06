@@ -1,0 +1,184 @@
+Why NumPy?
+storing large amount of data
+using python list will consume large area and behave slower
+- data to object
+- storage generated
+- object metadata
+- each element have separate object
+
+*** NumPy stores differently ***
+import numpy as np
+arr = np.array([])
+- Continuous block of memory
+- Fast
+- Less memory
+- Vectorized operations
+------------------------------------------------------------------
+
+____LIST v/s NumPy____
+## EXAMPLE 1
+# LIST
+a = [1,2,3,4]
+print(a * 2)
+
+output: [1,2,3,1,2,3]
+---- It doubles the array
+
+# NumPy
+import numpy as np
+a = np.array([1,2,3,4])
+print(a * 2)
+
+output: [2,4,6,8]
+---- This is called Vectorized Computation
+
+## EXAMPLE 2
+# LIST
+a = [1,2,3]
+b = [4,5,6]
+print(a + b)
+
+output: [1,2,3,4,5,6]
+---- Concat
+
+# NumPy
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+print(a + b)
+
+output: [5,7,9]
+---- Addition element wise
+----------------------------------------------------------------------
+
+____INTRO TO NumPy____
+## DIMENSIONS
+- arr.ndim
+
+## SHAPE
+- arr.shape
+
+## DATATYPE
+- arr.dtype
+
+## ZEROS()
+- arr.zeros()
+
+## ONES()
+- arr.ones()
+
+## FULL()
+- arr.full()
+
+## EYE()
+- arr.eye()
+
+## ARANGE()
+- arr.arange()
+
+## LINSPACE()
+- arr.linspace()
+----------------------------------
+
+____INDEXING & SLICING____
+## ACCESSING ELEMENTS
+- First element : arr[0] 
+- Last element : arr[-1]
+- Slice : arr[1:4]
+- Reverse : arr[::-1]
+- 2D : arr[1,2]
+- Row : arr[1]
+- Column : arr[:,-1]
+- Block : arr[1:3,0:2]
+- Boolean filter : arr[arr > 20]
+- Fancy indexing : arr[[0,2,4]]
+----------------------------------
+
+___Array Operations___
+## Arithmetic operations
+- arr1 +/-/*/% arr2
+
+## Comparison operation
+- >,<,>=,<=,==,!=
+
+## Universal functions
+- np.add()
+- np.subtract()
+- np.multiply()
+- np.divide()
+- np.square()
+- np.sqrt()
+- np.sin()
+- np.cos()
+- np.exp()
+- np.log()
+- np.pi
+
+## Aggregation functions 1D
+- np.sum()
+- np.mean()
+- np.max()
+- np.min()
+- np.std()
+- np.var()
+## Aggregation functions 2D
+- np.sum(axis=0) column wise
+- np.sum(axis=1) row wise
+------------------------------------
+
+___Reshape & Broadcasting___
+## Reshape
+- arr.reshape(row,column)
+- arr.reshape(-1,column)
+- arr.reshape(row,-1)
+
+## Flatten vs Ravel
+# Function	  Returns
+- flatten()	  Copy
+- ravel()	  View (if possible)
+
+## Transpose
+- arr.T 
+- arr.transpose()
+
+## Broadcasting
+Two shapes are compatible if:
+- They are equal.
+- One of them is 1.
+# Examples:
+
+Shape A 	Shape B	  Works?
+ (3,)	     (3,)	   ✅
+ (2,3)	     (3,)	   ✅
+ (4,3)	     (3,)	   ✅
+ (2,3)	     (2,1)	   ✅
+ (2,3)	     (2,2)	   ❌
+
+Always compare dimensions from right to left.
+-----------------------------------------------
+
+___Stacking & Splitting___
+
+Function	             Purpose
+hstack()	             Join horizontally
+vstack()	             Join vertically
+column_stack()           Combine 1D arrays as columns
+concatenate()	         Flexible joining
+split()	                 Equal splitting
+array_split()	         Unequal splitting
+hsplit()	             Split columns
+vsplit()	             Split rows
+----------------------------------------------------
+
+___NumPy Random Module___
+
+Function	             Purpose
+randint()	             Random integers
+rand()	                 Random floats (0–1)
+randn()              	 Standard normal values
+seed()	                 Reproducible randomness
+shuffle()	             Shuffle an array in place
+choice()	             Random sampling
+uniform()	             Uniform distribution
+normal()	             Normal distribution
+-----------------------------------------------------
