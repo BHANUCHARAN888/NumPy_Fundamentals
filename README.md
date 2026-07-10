@@ -25,11 +25,11 @@ This repository is part of my **AI Engineer Roadmap**, where I build strong foun
 - [x] Day 3 – Array Operations
 - [x] Day 4 – Reshape & Broadcasting
 - [x] Day 5 – Stacking & Splitting
-- [ ] Day 6 – Random Module
-- [ ] Day 7 – Linear Algebra Basics
-- [ ] Day 8 – Statistics with NumPy
-- [ ] Day 9 – Performance & Vectorization
-- [ ] Day 10 – Mini Project & Revision
+- [x] Day 6 – Random Module
+- [x] Day 7 – Linear Algebra Basics
+- [x] Day 8 – Statistics with NumPy
+- [x] Day 9 – Performance & Vectorization
+- [x] Day 10 – Mini Project & Revision
 
 ---
 
